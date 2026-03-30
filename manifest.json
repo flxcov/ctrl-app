@@ -1,0 +1,74 @@
+{
+  "id": "/",
+  "name": "CTRL - Your Life OS",
+  "short_name": "CTRL",
+  "description": "Your personal life operating system. Track bills, documents, tasks, and habits. Get AI-powered guidance from Ada.",
+  "start_url": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#0F0E0D",
+  "theme_color": "#D85A30",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["productivity", "lifestyle", "utilities"],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "icons": [
+    {
+      "src": "/icons/icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-100x100.png",
+      "sizes": "100x100",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-196x196.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Talk to Ada",
+      "short_name": "Ada",
+      "description": "Get AI guidance",
+      "url": "/?view=ada",
+      "icons": [{ "src": "/icons/icon-100x100.png", "sizes": "100x100" }]
+    },
+    {
+      "name": "Today",
+      "short_name": "Today",
+      "description": "See what needs attention",
+      "url": "/?view=today",
+      "icons": [{ "src": "/icons/icon-100x100.png", "sizes": "100x100" }]
+    }
+  ]
+}
